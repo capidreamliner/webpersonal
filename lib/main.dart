@@ -68,6 +68,17 @@ class MyApp extends StatelessWidget {
                   child: Container(
                     width: cardWidth,
                     height: cardHeight,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(16),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black26,
+                          blurRadius: 10,
+                          offset: Offset(0, 5),
+                        ),
+                      ],
+                    ),
                     child: Center(
                       child: Image.asset(
                         'assets/marca.png',

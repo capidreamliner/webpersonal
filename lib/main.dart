@@ -164,7 +164,7 @@ class MyApp extends StatelessWidget {
                                             buildStyledButton(
                                               icon: FontAwesomeIcons.whatsapp,
                                               onPressed: () => launchUrlString(
-                                                  'wa.link/3028h0'),
+                                                  'https://https://wa.link/3028h0'),
                                               isFaIcon: true,
                                             ),
                                             buildStyledButton(
@@ -173,11 +173,7 @@ class MyApp extends StatelessWidget {
                                                   'https://www.linkedin.com/in/smartinezs'),
                                               isFaIcon: true,
                                             ),
-                                            buildStyledButton(
-                                              icon: Icons.description,
-                                              onPressed: () => launchUrlString(
-                                                  'callto:+5492617148982'),
-                                            ),
+                                            
                                           ],
                                         ),
                                       )
@@ -244,11 +240,7 @@ class MyApp extends StatelessWidget {
                                           'https://www.linkedin.com/in/smartinezs'),
                                       isFaIcon: true,
                                     ),
-                                    buildStyledButton(
-                                      icon: Icons.description,
-                                      onPressed: () => launchUrlString(
-                                          'callto:+5492617148982'),
-                                    ),
+                                    
                                   ],
                                 ),
                               )
